@@ -14,7 +14,6 @@
 hs_err_pid*
 replay_pid*
 
-
 # =========================
 # Maven
 # =========================
@@ -22,7 +21,6 @@ replay_pid*
 target/
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
 
 # =========================
 # IntelliJ IDEA
@@ -33,7 +31,6 @@ target/
 *.iws
 *.ipr
 
-
 # =========================
 # Eclipse
 # =========================
@@ -42,13 +39,11 @@ target/
 .project
 .settings/
 
-
 # =========================
 # VS Code
 # =========================
 
 .vscode/
-
 
 # =========================
 # Environment variables
@@ -56,7 +51,7 @@ target/
 
 .env
 .env.*
-
+!.env.example
 
 # =========================
 # Logs
@@ -64,14 +59,12 @@ target/
 
 *.log
 
-
 # =========================
 # OS generated files
 # =========================
 
 .DS_Store
 Thumbs.db
-
 
 # =========================
 # Docker
