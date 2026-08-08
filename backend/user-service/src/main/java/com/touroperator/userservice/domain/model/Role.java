@@ -1,0 +1,6 @@
+package com.touroperator.userservice.domain.model;
+
+public enum Role {
+    USER,
+    ADMIN
+}
