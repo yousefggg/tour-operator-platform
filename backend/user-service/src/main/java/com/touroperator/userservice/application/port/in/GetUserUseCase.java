@@ -1,4 +1,8 @@
 package com.touroperator.userservice.application.port.in;
 
-public class GetUserUseCase {
+import com.touroperator.userservice.application.dto.UserResponse;
+
+public interface GetUserUseCase {
+
+    UserResponse getById(Long id);
 }
