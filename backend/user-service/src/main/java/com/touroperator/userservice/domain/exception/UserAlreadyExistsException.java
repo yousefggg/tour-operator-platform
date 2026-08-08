@@ -1,7 +1,8 @@
 package com.touroperator.userservice.domain.exception;
 
-public class UserAlreadyExist extends RuntimeException {
-  public UserAlreadyExist(String message) {
-    super(message);
-  }
+public class UserAlreadyExistsException extends DomainException {
+    public UserAlreadyExistsException(String email) {
+        super("User already exists with email: " + email);
+    }
 }
+
