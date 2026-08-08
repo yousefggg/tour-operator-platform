@@ -1,4 +1,7 @@
 package com.touroperator.userservice.application.command;
 
-public class RegisterUserCommand {
+public record RegisterUserCommand(
+        String email,
+        String password
+) {
 }
